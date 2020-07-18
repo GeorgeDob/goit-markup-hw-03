@@ -1,0 +1,257 @@
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --black-color: #000000;
+  --primary-white-color: #ffffff;
+  --footer-color: #2f303a;
+  --portfolio-button-color: #f5f4fa;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+/* белый цвет: #FFFFFF */
+/* цвет заголовка: #212121 */
+/* основной цвет текста: #757575 */
+/* акцент: #2196F3 */
+/* цвет контактов в футере: rgba(255, 255, 255, 0.6); */
+/* черный цвет: #000000 */
+/* цвет футера: #2F303A */
+/* цвет кнопок портфолио: #F5F4FA */
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*  Шапка */
+
+/* Навигация */
+.logo-web {
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo {
+  color: var(--black-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.pages-nav .link {
+  color: var(--title-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.pages-nav .link:hover,
+.pages-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.pages-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Контакты */
+.nav-contacts .contacts {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-contacts .contacts:hover,
+.nav-contacts .contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Оформелние index.html */
+
+/* Секции */
+
+.section-title {
+  color: var(--title-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Герой */
+.hero .title {
+  color: var(--title-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Особенности */
+.features .title {
+  color: var(--title-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+.direction-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Наша команда */
+.team-title {
+  color: var(--title-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+/* Постоянные клиенты */
+
+/* Оформление portfolio.html */
+
+.portfolio-title {
+  color: var(--title-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.portfolio-directions {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* Фильтр портфолио */
+button {
+  color: var(--title-color);
+  background-color: var(--portfolio-button-color);
+
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--footer-color);
+}
+
+.contacts .adress {
+  color: var(--primary-white-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.contacts .mail,
+.contacts .phone {
+  color: var(--contacts-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer .social p,
+.subscribe p {
+  color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.footer .social a {
+  color: var(--black-color);
+}
+
+/* Button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
