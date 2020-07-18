@@ -26,6 +26,7 @@ body {
 }
 
 .list {
+  margin: 0;
   list-style: none;
 }
 
@@ -87,11 +88,21 @@ body {
   color: var(--accent-color);
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
 /* Оформелние index.html */
 
 /* Секции */
 
 .section-title {
+  padding: 0;
+  margin: 0px 0px 50px 0px;
   color: var(--title-color);
 
   font-weight: 700;
@@ -102,6 +113,9 @@ body {
 
 /* Герой */
 .hero .title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--title-color);
 
   font-weight: 900;
@@ -112,8 +126,28 @@ body {
   text-transform: uppercase;
 }
 
+.hero-btn {
+  padding: 10px 32px;
+  min-width: 200px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
 /* Особенности */
-.features .title {
+
+.features-list .title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   color: var(--title-color);
 
   font-weight: 700;
@@ -122,7 +156,10 @@ body {
   text-transform: uppercase;
 }
 
-.features p {
+.features-list .text {
+  margin-top: 0;
+  margin-bottom: 94px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -180,7 +217,12 @@ body {
   line-height: 1.87;
 }
 /* Фильтр портфолио */
-button {
+.filter-btn {
+  padding: 6px 22px;
+  min-width: 73px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+
   color: var(--title-color);
   background-color: var(--portfolio-button-color);
 
@@ -191,12 +233,8 @@ button {
   text-align: center;
 }
 
-button:hover {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
-button:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -238,20 +276,17 @@ button:focus {
 }
 
 /* Button */
-.button {
+.footer-btn {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  padding: 10px 62px 10px 29px;
+  min-width: 200px;
+  border-radius: 4px;
+  border: 1px solid transparent;
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-}
-
-.button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
 }
