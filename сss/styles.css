@@ -296,7 +296,14 @@ body {
 
 /* Оформление portfolio.html */
 
+.portfolio-list {
+  margin: 0;
+}
+
 .portfolio-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+
   color: var(--title-color);
 
   font-weight: 700;
@@ -306,12 +313,17 @@ body {
 }
 
 .portfolio-text {
+  margin: 0;
+
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
 }
 
 .portfolio-directions {
+  margin-top: 0;
+  margin-bottom: 20px;
+
   color: var(--primary-text-color);
 
   font-weight: 400;
@@ -319,6 +331,19 @@ body {
   line-height: 1.87;
 }
 /* Фильтр портфолио */
+
+.filter {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 0;
+  margin-bottom: 56px;
+}
+
+.filter-nav + .filter-nav {
+  margin-left: 8px;
+}
+
 .filter-btn {
   padding: 6px 22px;
   min-width: 73px;
@@ -360,10 +385,6 @@ body {
   display: flex;
 
   margin-bottom: 20px;
-}
-
-.logo {
-  margin: 0;
 }
 
 /* Контакты */
